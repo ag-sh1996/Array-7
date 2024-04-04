@@ -5,8 +5,8 @@ public class Solution {
      * @param word2: a string
      * @return: the shortest distance between word1 and word2 in the list
      */
-     //TC: O(m+k)
-     //Sc: O(n)
+     //TC: O(n)
+     //Sc: O(1)
     public int shortestDistance(String[] words, String word1, String word2) {
         // Write your code here'
         if(words == null) return 0;
